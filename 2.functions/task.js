@@ -1,5 +1,5 @@
 // Задание 1
-function getArrayParams(arr) {
+let getArrayParams = (arr) => {
 	let min = Infinity;
 	let max = -Infinity
 	let sum = 0, avg = 0;
@@ -22,7 +22,7 @@ function getArrayParams(arr) {
 }
 
 // Задание 2
-function worker(arr) {
+let worker = (arr) => {
 	let sum = 0;
 
 	// Ваш код
@@ -33,7 +33,7 @@ function worker(arr) {
 	return sum;
 }
 
-function makeWork(arrOfArr, func) {
+let makeWork = (arrOfArr, func) => {
 	let max = 0;
 	let result = 0;
 
@@ -50,7 +50,7 @@ function makeWork(arrOfArr, func) {
 }
 
 // Задание 3
-function worker2(arr) {
+let worker2 = (arr) => {
 	// Ваш код
 	let max = -Infinity;
 	let min = Infinity;
